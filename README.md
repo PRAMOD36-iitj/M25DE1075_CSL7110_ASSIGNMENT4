@@ -116,19 +116,7 @@ Large Graph (1000 nodes)
 
 
 
- Limitations
-
-* Hybrid clustering less effective for small k
-* Minor mismatch in one search query
-* Spark tested in local mode (limited scalability testing)
-
-
-
- Future Improvements
-
-* Improve tokenization for edge cases
-* Optimize hybrid clustering approach
-* Deploy PageRank on a real distributed cluster
+ 
 
 
 
