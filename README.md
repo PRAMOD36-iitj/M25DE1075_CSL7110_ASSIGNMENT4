@@ -34,9 +34,9 @@ Project Structure
 Implemented Algorithms
 
 k-center (Farthest-First Traversal)
-k-Means++ Initialization**
-k-Means Objective Function**
-Vector Reader using PySpark Dense Vectors**
+k-Means++ Initialization
+k-Means Objective Function
+Vector Reader using PySpark Dense Vectors
 
  Dataset
 
