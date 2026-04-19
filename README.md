@@ -60,8 +60,8 @@ Part 2: Inverted Index & Search Engine
 
 Implemented Components
 
-* Custom data structures: `MySet`, `WordEntry`, `PageIndex`
-* Core system: `InvertedPageIndex`, `SearchEngine`
+* Custom data structures: MySet, WordEntry, PageIndex
+* Core system: InvertedPageIndex, SearchEngine
 * Hash-based indexing with O(1) lookup
 
 Features
