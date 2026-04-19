@@ -11,9 +11,9 @@
 
 This repository contains implementations of three core data mining and information tasks:
 
-1. **Clustering Algorithms (k-center, k-Means++)**
-2. **Inverted Index & Search Engine**
-3. **PageRank using PySpark and Python**
+1. Clustering Algorithms (k-center, k-Means++)
+2. Inverted Index & Search Engine
+3. PageRank using PySpark and Python
 
 The project demonstrates efficient algorithm design, vectorized computation, and scalable data processing.
 
@@ -33,10 +33,10 @@ The project demonstrates efficient algorithm design, vectorized computation, and
 
 Implemented Algorithms
 
-* **k-center (Farthest-First Traversal)**
-* **k-Means++ Initialization**
-* **k-Means Objective Function**
-* **Vector Reader using PySpark Dense Vectors**
+k-center (Farthest-First Traversal)
+k-Means++ Initialization
+k-Means Objective Function
+Vector Reader using PySpark Dense Vectors
 
  Dataset
 
@@ -45,9 +45,9 @@ Implemented Algorithms
 
  Key Results (k = 10)
 
-* k-center runtime: **0.0198 s**
-* k-Means++ runtime: **0.0157 s**
-* k-Means++ objective: **27,438.08**
+* k-center runtime: 0.0198 s
+* k-Means++ runtime: 0.0157 s
+* k-Means++ objective: 27,438.08
 
  Observations
 
@@ -74,9 +74,9 @@ Implemented Algorithms
 
  Performance
 
-* Queries executed: **11**
-* Correct outputs: **10 / 11**
-* Accuracy: **90.9%**
+* Queries executed: 11
+* Correct outputs: 10 / 11
+* Accuracy: 90.9%
 
  Insight
 
@@ -91,15 +91,15 @@ Implementation
 
 Parameters
 
-* Damping factor (β): **0.8**
-* Iterations: **40**
-* Convergence: **L1 norm**
+* Damping factor (β): 0.8
+* Iterations: 40
+* Convergence: L1 norm
 
 Results
 
 Small Graph (100 nodes)
 
-* Top rank ≈ **0.0357**
+* Top rank ≈ 0.0357
 * Converged successfully 
 
  Large Graph (1000 nodes)
@@ -114,9 +114,9 @@ Observations
 
  Technical Highlights
 
-* Fully vectorized clustering using **NumPy**
-* Efficient search engine with **hash-based indexing**
-* Scalable PageRank using **PySpark**
+* Fully vectorized clustering using NumPy
+* Efficient search engine with hash-based indexing
+* Scalable PageRank using PySpark
 * Reproducible results with fixed random seed
 
 
