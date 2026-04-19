@@ -22,12 +22,10 @@ The project demonstrates efficient algorithm design, vectorized computation, and
 * Python
 * NumPy
 * PySpark (RDD-based implementation)
-  
- Project Structure
-
+  Project Structure
 ├── Assignment4.ipynb     # Main implementation notebook
 ├── README.md            # Project documentation
-├── data
+├── data/                # Dataset files 
 
  Part 1: Clustering
 
