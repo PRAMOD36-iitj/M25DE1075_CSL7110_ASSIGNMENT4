@@ -27,7 +27,7 @@ The project demonstrates efficient algorithm design, vectorized computation, and
 
 ├── Assignment4.ipynb     # Main implementation notebook
 ├── README.md            # Project documentation
-├── data/                # Dataset files (if applicable)
+├── data
 
  Part 1: Clustering
 
