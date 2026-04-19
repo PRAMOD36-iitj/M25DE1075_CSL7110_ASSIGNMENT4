@@ -24,7 +24,7 @@ Project Structure
 ```
 ├── Assignment4.ipynb     # Main implementation notebook
 ├── README.md            # Project documentation
-├── data/                # Dataset files (if applicable)
+├── data/                # Dataset files 
 ```
 
 
