@@ -29,14 +29,12 @@ Project Structure
 
 
 
- Part 1: Clustering
-
-Implemented Algorithms
-
+Part 1: Clustering
+Algorithms Implemented
 k-center (Farthest-First Traversal)
 k-Means++ Initialization
 k-Means Objective Function
-Vector Reader using PySpark Dense Vectors
+Vector Loader using PySpark
 
  Dataset
 
