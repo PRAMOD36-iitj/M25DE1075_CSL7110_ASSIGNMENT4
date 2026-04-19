@@ -1,15 +1,16 @@
 # M25DE1075_CSL7110_ASSIGNMENT4
 
+
  Assignment 4: Clustering, Inverted Index & PageRank
 
-**Name:** Pramod Behera
-**Roll No:** M25DE1075
+Name: Pramod Behera
+Roll No: M25DE1075
 
 
 
  Project Overview
 
-This repository contains implementations of three core data mining and information tasks:
+This repository contains implementations of three core data mining and information retrieval tasks:
 
 1. Clustering Algorithms (k-center, k-Means++)
 2. Inverted Index & Search Engine
@@ -17,24 +18,25 @@ This repository contains implementations of three core data mining and informati
 
 The project demonstrates efficient algorithm design, vectorized computation, and scalable data processing.
 
- Technologies Used
 
-* Python
-* NumPy
-* PySpark (RDD-based implementation)
-  Project Structure
+Project Structure
+
+```
 ├── Assignment4.ipynb     # Main implementation notebook
 ├── README.md            # Project documentation
-├── data/                # Dataset files 
+├── data/                # Dataset files (if applicable)
+```
+
+---
 
  Part 1: Clustering
 
 Implemented Algorithms
 
 k-center (Farthest-First Traversal)
-k-Means++ Initialization
-k-Means Objective Function
-Vector Reader using PySpark Dense Vectors
+k-Means++ Initialization**
+k-Means Objective Function**
+Vector Reader using PySpark Dense Vectors**
 
  Dataset
 
@@ -53,17 +55,16 @@ Vector Reader using PySpark Dense Vectors
 * k-center selects boundary points (geometric spread)
 * Hybrid approach requires larger coreset for better performance
 
----
 
- Part 2: Inverted Index & Search Engine
+Part 2: Inverted Index & Search Engine
 
- Implemented Components
+Implemented Components
 
 * Custom data structures: `MySet`, `WordEntry`, `PageIndex`
 * Core system: `InvertedPageIndex`, `SearchEngine`
 * Hash-based indexing with O(1) lookup
 
- Features
+Features
 
 * Text normalization (punctuation removal, stemming)
 * Stop-word filtering
@@ -76,18 +77,15 @@ Vector Reader using PySpark Dense Vectors
 * Correct outputs: 10 / 11
 * Accuracy: 90.9%
 
- Insight
 
-Efficient indexing enables fast and accurate retrieval using TF-IDF scoring and phrase matching.
+ Part 3: PageRank
 
-Part 3: PageRank
-
-Implementation
+ Implementation
 
 * PySpark RDD-based PageRank
 * Pure Python implementation
 
-Parameters
+ Parameters
 
 * Damping factor (β): 0.8
 * Iterations: 40
@@ -100,29 +98,32 @@ Small Graph (100 nodes)
 * Top rank ≈ 0.0357
 * Converged successfully 
 
- Large Graph (1000 nodes)
+Large Graph (1000 nodes)
 
 * Rank distribution more uniform due to scale
 
-Observations
+ Observations
 
 * Efficient convergence using power iteration
 * Spark avoids costly data collection each iteration
 * Proper handling of dangling nodes
 
+
  Technical Highlights
 
 * Fully vectorized clustering using NumPy
-* Efficient search engine with hash-based indexing
+* Efficient search engine with **hash-based indexing
 * Scalable PageRank using PySpark
 * Reproducible results with fixed random seed
 
 
-Limitations
+
+ Limitations
 
 * Hybrid clustering less effective for small k
 * Minor mismatch in one search query
 * Spark tested in local mode (limited scalability testing)
+
 
 
  Future Improvements
@@ -130,4 +131,8 @@ Limitations
 * Improve tokenization for edge cases
 * Optimize hybrid clustering approach
 * Deploy PageRank on a real distributed cluster
+
+
+
+
 
