@@ -9,7 +9,7 @@
 
  Project Overview
 
-This repository contains implementations of three core data mining and information retrieval tasks:
+This repository contains implementations of three core data mining and information tasks:
 
 1. **Clustering Algorithms (k-center, k-Means++)**
 2. **Inverted Index & Search Engine**
