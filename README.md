@@ -110,7 +110,7 @@ Large Graph (1000 nodes)
  Technical Highlights
 
 * Fully vectorized clustering using NumPy
-* Efficient search engine with **hash-based indexing
+* Efficient search engine with hash-based indexing
 * Scalable PageRank using PySpark
 * Reproducible results with fixed random seed
 
